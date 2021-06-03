@@ -1,0 +1,30 @@
+项目管理系统
+
+数据库结构
+任务表（task）：任务编号（tid），任务标题（title），发送者（sender），执行人（executor），优先级（priority）
+项目表（project）：项目名称（pname），客户名称（Customer），项目经理（manager），开发人数（developers），立项时间（ establish），更新时间（update），优先级（priority），状态（state）
+个人信息表（personalinfo）：工号（userid）姓名，性别（sex），职位（position），状态（state）
+用户信息表（usernfo）：工号（userid）用户名（userName），用户密码（password）权限（authority）
+
+
+
+功能：
+1任务系统
+  增删改查
+2项目系统
+  增加项目
+  删除项目
+  项目基本信息查改；
+  项目计划信息查改；
+  项目需求信息查改；
+  项目功能信息查改；
+  项目成本信息查改；
+3个人管理
+  个人信息查看
+  个人任务信息查看
+4系统管理
+  用户管理
+5系统分析
+  需求分析
+  成本分析
+  人员分析
